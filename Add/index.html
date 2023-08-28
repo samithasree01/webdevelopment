@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chan">
+    <p>Enter first number:
+    <input type="text" id="num1" name="number1">
+    </p>
+    <p>Enter second number:
+    <input type="text" id="num2" name="number2">
+    </p>
+    <p>
+    <button id="but" onclick="add()">Add</button>
+    </p>
+    </div>
+    <script>
+        function add()
+        {
+          var n1=parseInt( document.getElementById("num1").value);
+          var n2=parseInt(document.getElementById("num2").value);
+         var sum=n1+n2;
+         document.getElementById("but").textContent="Sum:"+sum;
+        }
+    </script>
+</body>
+</html>

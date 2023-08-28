@@ -1,0 +1,8 @@
+body{
+    text-align: center;
+}
+.chan{
+    padding: 100px;
+    border: 4px solid black;
+    background-color: aquamarine;
+}
