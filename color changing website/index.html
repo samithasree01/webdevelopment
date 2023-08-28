@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color changing web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BACKGROUND COLOUR CHANGING</h1>
+    <p>Enter the colour</p>
+    <input type="text" id="color" name="change"><br>
+    <p>
+    <button id="butn" onclick="changecolor()">COLOUR</button> 
+    </p>
+    <script>
+        function changecolor()
+        {
+            var color=document.getElementById("color").value;
+            document.body.style.backgroundColor=color;
+        }
+    </script>
+</body>
+</html>
